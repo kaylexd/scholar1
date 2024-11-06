@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  /* Provide the path to your search icon */
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: crimson; /* Reduced opacity */
+  max-width: 2000;
+}
+header h3 {
+  margin-left: 100px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  margin-left: 50px;
+}
+
+nav ul li {
+  padding: 20px;
+  cursor: pointer;
+  color: hsl(0, 23%, 95%);
+  font-size: 2 em;
+}
+
+.Title {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between; /* Align items to the ends */
+  align-items: center; /* Vertically center items */
+  background-size: cover;
+  border-radius: 10px;
+  height: 640px;
+  width: 1300px;
+  margin-left: 0;
+}
+
+.Title img {
+  max-width: 500.5px; /* Adjust the size as needed */
+  height: 590px;
+  margin-left: 120px;
+}
+
+.login-link,
+.about-link {
+  color: white;
+  text-decoration: none; /* Removes underline */
+}
+
+.login-link:hover,
+.about-link:hover {
+  color: lightgray; /* Optional: Changes color on hover */
+}
+
+.main-item {
+  padding: 20px 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 1000px;
+  height: inherit;
+  font-family: sans-serif;
+}
+
+.login-container {
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  width: 500px;
+  text-align: left;
+}
+
+.login-container h2 {
+  margin-bottom: 5px;
+  font-size: 30px;
+  color: #ea1818c5;
+}
+.login-container p {
+  font-size: small;
+  color: #555;
+  margin-bottom: 10px;
+}
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="password"] {
+  width: 70%;
+  padding: 10px;
+  margin: 5px 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="date"] {
+  width: 70%;
+  padding: 10px;
+  margin: 5px 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="radio"] {
+  margin: 5px 0 15px;
+  border: 1px solid #dc1818;
+  border-radius: 5px;
+  background-color: #dc1818;
+}
+
+label {
+  margin: 10px 0 5px;
+  color: #555;
+  font-size: 13px; /* Adjust the font size */
+  font-family: "Arial", sans-serif; /* Set the font family */
+  font-weight: lighter; /* Set font weight (bold, normal, etc.) */
+
+  text-align: left;
+}
+
+button {
+  background-color: #f63243;
+  border: none;
+  color: whitesmoke;
+  height: 35px;
+  width: 130px;
+  margin-inline: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsla(60, 2%, 8%, 0.564);
+}
+
+.main-item img {
+  width: 100px; /* Equal width and height */
+  height: 100px;
+  border-radius: 70%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 0px;
+}
+
+.menu {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 10px;
+}
+
+.menu-item {
+  text-align: center;
+  width: 300px;
+  height: inherit;
+}
+
+.menu-item.active {
+  background-color: hsla(72, 22%, 95%, 0.564);
+}
+.label {
+  font-size: 15px;
+}
+
+.upload-container {
+  text-align: left;
+  margin-left: 80px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #20234b;
+  color: white;
+  border-color: #f11e1e;
+  border-radius: 100%;
+  font-size: 10px;
+  transition: background-color 0.3s;
+}
+
+.custom-file-upload:hover {
+  background-color: #ee1212;
+}
+
+footer {
+  background-color: #4e4545c5;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center; /* Aligns the logo and text vertically */
+}
+
+.logo {
+  margin-left: 200px;
+  width: 60px; /* Adjust the size of the logo */
+  height: 60px;
+  margin-right: 20px;
+  border-radius: 100%; /* Space between logo and text */
+}
+.logo1 {
+  margin-left: 100px;
+  width: 70px; /* Adjust the size of the logo */
+  height: 70px;
+  margin-right: 20px;
+  /* Space between logo and text */
+}
+.logo2 {
+  margin-left: 350px;
+  width: 60px; /* Adjust the size of the logo */
+  height: 60px;
+  margin-right: 20px;
+  border-radius: 100%; /* Space between logo and text */
+}
+.logo3 {
+  margin-left: 350px;
+  width: 30px; /* Adjust the size of the logo */
+  height: 30px;
+  margin-right: 20px;
+  /* Space between logo and text */
+}
+
+.logo4 {
+  margin-left: 225px;
+  width: 30px; /* Adjust the size of the logo */
+  height: 30px;
+  margin-right: 20px;
+  /* Space between logo and text */
+}
+.text-content h3 {
+  color: white;
+}
+.text-content p {
+  margin: 0;
+  color: white;
+}
+.text-content1 {
+  color: white;
+  margin-bottom: 10px;
+}
+.text-content1 p {
+  margin-top: 10px;
+}
+.space {
+  padding: 20px;
+}
+.h1 {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+  font-size: 30px;
+  gap: 10px;
+  border-top: 2px solid rgb(243, 240, 240);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #4e454570;
+  border-top: 2px solid rgb(243, 240, 240);
+  border-bottom: 2px solid rgb(243, 240, 240);
+}
+
+.footer-bottom p {
+  padding-top: 20px;
+  margin: 0;
+  color: white;
+}
